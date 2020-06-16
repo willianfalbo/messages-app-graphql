@@ -8,6 +8,8 @@ const multer = require('multer');
 const feedRoutes = require('./routes/feed');
 const authRoutes = require('./routes/auth');
 
+const config = require('./utils/config');
+
 const app = express();
 
 const fileStorage = multer.diskStorage({
@@ -61,11 +63,12 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://<USERNAME>:<PASSWORD>@cluster0-ntrwp.mongodb.net/<DBNAME>?retryWrites=true',
+    config.MONGODB_URI,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(result => {
-    const server = app.listen(8080);
+    const server = app.listen(config.SERVER_PORT);
+    console.log(`Listening on port ${config.SERVER_PORT}`)
     const io = require('./socket').init(server);
     io.on('connection', socket => {
       console.log('Client connected');
