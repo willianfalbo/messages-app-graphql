@@ -1,13 +1,12 @@
 ## Messages App - Backend
 
-The backend was built using Node.js and many other packages.
+The backend was built using Node.js, GrapgQL and many other packages.
 
 ### Stack
 
 - Node.js & Javascript
-- RESTFul APIs & Express.js
+- GraphQL APIs & Express.js
 - MongoDB database & Mongoose.js ODM
-- Real-time connection with Websocket & Socket<!---->.io
 - JWT Authentication & Password-Hashing with bcrypt
 - File uploads with Multer
 

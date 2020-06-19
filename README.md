@@ -26,9 +26,8 @@ This is a simple application for posting messages. There is no goal here, it was
 
 - Backend
     - Node.js & Javascript
-    - RESTFul APIs & Express.js
+    - GraphQL APIs & Express.js
     - MongoDB database & Mongoose.js ODM
-    - Real-time connection with Websocket & Socket<!---->.io
     - JWT Authentication & Password-Hashing with bcrypt
     - File uploads with Multer
 
