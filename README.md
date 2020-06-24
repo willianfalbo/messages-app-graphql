@@ -1,14 +1,12 @@
 ## Messages App
 
-This is a simple application for posting messages. There is no goal here, it was created for demonstration purpose only.
+Simple application for posting messages. There is no goal here, it was created for demonstration purpose only.
 
 ### Features
 
-- Signup users
-- Login and logout users
-- Posts messages (Feed) - Real time updates
-- Posts operations (create, read, update and delete)
-- Upload photos
+- Authentication: Sign-up, login and logout.
+- Feed: Paginated post messages and real-time updates.
+- Post Management: Upload photos, create posts, update and delete.
 
 ### Quick Preview
 
@@ -28,7 +26,7 @@ This is a simple application for posting messages. There is no goal here, it was
     - Node.js & Javascript
     - GraphQL APIs & Express.js
     - MongoDB database & Mongoose.js ODM
-    - JWT Authentication & Password-Hashing with bcrypt
+    - JWT authentication & Password-Hashing with bcrypt
     - File uploads with Multer
 
 - Frontend

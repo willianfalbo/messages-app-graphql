@@ -2,7 +2,7 @@ version: '3'
 services:
   database:
     image: 'mongo'
-    container_name: 'mongodb-dev'
+    container_name: 'mongodb-messages-app-graphql'
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=password

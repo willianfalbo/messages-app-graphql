@@ -8,9 +8,9 @@ The frontend was built using React.js and many other packages.
 
 ### Quick Start
 
-1. Change the config file if needed. // TODO: Up to this time the configuration is hard-coded. 
+1. Run `npm i` to install package dependencies.
 
-2. Run `npm i` to install package dependencies.
+2. Change the config file if needed. // TODO: Up to this time the configuration is hard-coded. 
 
 3. Run `npm run start` for starting the server.
 
