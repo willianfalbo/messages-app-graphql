@@ -1,6 +1,6 @@
 ## Messages App
 
-Simple application for posting messages. There is no goal here, it was created for demonstration purpose only.
+A simplified version of a posting messages application. There is no goal here, it was created for demonstration purpose only.
 
 ### Features
 
@@ -34,4 +34,4 @@ Simple application for posting messages. There is no goal here, it was created f
 
 ### Credits
 
-This App was created based on [Maximilian Schwarzmüller](https://academind.com/team/#maximilian)'s course. [NodeJS - The Complete Guide](https://academind.com/learn/our-courses/).
+This app was created based on [Maximilian Schwarzmüller](https://academind.com/team/#maximilian)'s course. [NodeJS - The Complete Guide](https://academind.com/learn/our-courses/).
